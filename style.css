@@ -61,3 +61,75 @@ body {
 .register-btn:hover {
   background-color: #0056b3;
 }
+
+/* Banner Start*/
+.banner {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Background Image */
+.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Dark Overlay */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+/* Content */
+.banner-content {
+  width: 70%;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-content h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #fff;
+}
+
+/* Bottom Button */
+.banner-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner-btn a {
+  text-decoration: none;
+  color: #fff;
+  background: #0d6efd;
+  padding: 14px 35px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner-btn a:hover {
+  background: #0b5ed7;
+}
