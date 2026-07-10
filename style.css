@@ -293,7 +293,10 @@ button.content-us-button {
 
 /* Innovation Challenge Section Start */
 .hackathon {
-  width: 100%;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
   padding: 90px 8%;
   background: #0f172a;
   text-align: center;
@@ -398,3 +401,75 @@ button.content-us-button {
   background: #1d4ed8;
 }
 /* Innovation Challenge Section End */
+/* Footer start */
+.footer {
+  margin-top: 50px;
+  background: #0f172a;
+  padding: 40px 80px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-logo img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer-logo h2 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.footer-logo span {
+  color: #3b82f6;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #334155;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+  transform: translateY(-3px);
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #334155;
+  margin: 35px 0 25px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: #94a3b8;
+  font-size: 15px;
+}
+/* Footer End */
